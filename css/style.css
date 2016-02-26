@@ -1,0 +1,26 @@
+body {
+  background-color: #009DE3;
+  color: #FFFFFF;
+}
+
+.content {
+  max-width: 80%;
+  margin: auto;
+}
+
+.cite {
+  width: 100%;
+  background-color: #034064;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+}
+
+a {
+  text-underline: none;
+  color: #FFFFFF;
+}
+
+img {
+  max-width: 100%;
+}
