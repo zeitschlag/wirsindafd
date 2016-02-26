@@ -17,7 +17,8 @@ body {
 }
 
 a {
-  text-underline: none;
+  text-decoration: none;
+  border-bottom: thin solid #FFF;
   color: #FFFFFF;
 }
 
