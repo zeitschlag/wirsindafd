@@ -1,27 +1,65 @@
 body {
   background-color: #009DE3;
-  color: #FFFFFF;
+  color: #fff;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
-.content {
-  max-width: 80%;
-  margin: auto;
+blockquote:before{
+  content: "„";
 }
 
-.cite {
-  width: 100%;
-  background-color: #034064;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  margin-bottom: 5px;
+blockquote:after{
+  content: "“";
+}
+
+blockquote:before, blockquote:after{
+  opacity: 0.3;
+  font-weight: 700;
+}
+
+.jumbotron{
+  background-color: #034064;  
+  padding-bottom: 80px;
+}
+
+.intro{
+  background-color: #009DE3;
+}
+
+.intro .glyphicon{
+  color: red;
+}
+
+.cite{
+  text-align: right;
+  font-weight: 700;
+}
+  
+.cite:before{
+  content: " — ";
+}
+
+.cite a{
+  font-weight: 200;
+  font-style: italic;
+  font-size: 0.5em;
+  display: block;
 }
 
 a {
-  text-decoration: none;
-  border-bottom: thin solid #FFF;
   color: #FFFFFF;
+  text-decoration: underline;
 }
 
-img {
-  max-width: 100%;
+a:hover{
+  color: rgb(219,52,43);
+}
+
+blockquote{
+  font-size: 2.5em;
+  font-weight: 300;
+  color: #fff;
+  border: none;
+  padding: 0;
+  margin: 0;
 }
